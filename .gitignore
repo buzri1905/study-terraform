@@ -1,0 +1,27 @@
+# Local terraform state and plugin cache
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl.bak
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files that may carry secrets or account-specific values.
+# *.auto.tfvars and terraform.tfvars are intentionally ignored; commit
+# *.tfvars.example instead so the repo stays reproducible without leaking.
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# CLI config that can contain credentials
+.terraformrc
+terraform.rc
+
+# Saved plans (binary, may embed sensitive values)
+*.tfplan
+plan.out
+
+# macOS
+.DS_Store
