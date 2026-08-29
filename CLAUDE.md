@@ -65,7 +65,7 @@ the module boundary is wrong.
 - **Tagging:** every root module sets `provider.default_tags` with
   `Project` / `Lesson` (or `Component`) / `ManagedBy`. Do not repeat those tags
   on individual resources.
-- **Region:** `ap-northeast-2`, always via a `region` variable with that default.
+- **Region:** `ap-northeast-1`, always via a `region` variable with that default.
 - **Naming:** `${var.project}-<purpose>` where `project` defaults to `study-tf`.
   Globally-unique names (S3) get a `random_id` suffix.
 - **Modules never declare `provider` blocks.** Configure providers in the root

@@ -24,5 +24,5 @@ provider "aws" {
 variable "region" {
   description = "AWS region for this lesson."
   type        = string
-  default     = "ap-northeast-2"
+  default     = "ap-northeast-1"
 }

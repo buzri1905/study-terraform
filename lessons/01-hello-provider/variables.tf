@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region to create the practice bucket in."
   type        = string
-  default     = "ap-northeast-2"
+  default     = "ap-northeast-1"
 }
 
 variable "project" {

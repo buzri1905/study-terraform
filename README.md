@@ -5,7 +5,7 @@
 Terraform 실습 기록. 개념 하나당 디렉터리 하나로 쌓고, 마지막에 하나의 모듈화된
 AWS 구성으로 합친다. 모든 커밋은 `fmt` · `validate` · `terraform-docs` CI 를 통과한다.
 
-- **Provider:** AWS (`hashicorp/aws ~> 6.0`), 기본 리전 `ap-northeast-2`
+- **Provider:** AWS (`hashicorp/aws ~> 6.0`), 기본 리전 `ap-northeast-1`
 - **Terraform:** `>= 1.11` (S3 네이티브 state 락 `use_lockfile` 사용, DynamoDB 불필요)
 - **State:** `bootstrap/` 이 만든 S3 버킷 (버저닝 + SSE + 90일 이전 버전 만료)
 

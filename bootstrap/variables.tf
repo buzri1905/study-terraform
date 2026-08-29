@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region that hosts the shared Terraform state bucket."
   type        = string
-  default     = "ap-northeast-2"
+  default     = "ap-northeast-1"
 }
 
 variable "project" {
